@@ -1,39 +1,73 @@
 # Enterprise IT & Security Automation Scripts
 
-This repository contains a collection of real-world PowerShell scripts used in enterprise environments to automate IT operations, endpoint management, and security tasks.
+This repository contains a collection of real-world PowerShell and scripting solutions used to automate enterprise IT operations across identity management, endpoint administration, and network infrastructure.
 
-## 🔧 Technologies & Environments
-- Active Directory (User & Group Management)
-- SCCM / MECM (Software Deployment & Automation)
-- Microsoft Intune (Device Management)
-- Endpoint Security (CrowdStrike, Defender)
-- Windows 10/11 Enterprise Environments
+These scripts are designed to reduce manual effort, standardize processes, and improve operational efficiency in production environments.
 
-## 🚀 Key Capabilities
-- Automated user onboarding/offboarding
-- Bulk account management
-- Software deployment automation
-- Endpoint compliance checks
-- System cleanup and maintenance
-- Security auditing and reporting
+---
+
+## 🚀 Core Focus Areas
+
+### 🔐 Active Directory (Identity & Access Management)
+- Bulk user creation and standardized provisioning
+- Computer group membership automation
+- Group membership replication between devices
+- Directory lookup, validation, and reporting
+
+### 💻 Endpoint Management (Device Operations)
+- Remote system cleanup and cache remediation
+- Bulk remote system restarts
+- Endpoint maintenance and troubleshooting automation
+
+### 📡 Network Infrastructure (Connectivity & IP Management)
+- DHCP scope identification and validation
+- IP lease and reservation analysis
+- Multi-server DHCP lookup with fallback logic
+- DNS hostname-to-IP resolution
+
+### 📢 Endpoint Communication
+- Remote user notification scripting
+- Real-time messaging for support and operational workflows
+
+---
+
+## ⚙️ Key Capabilities
+
+- Automating repetitive administrative tasks at scale  
+- Standardizing user and device provisioning workflows  
+- Improving endpoint reliability and remediation speed  
+- Enhancing visibility across identity, endpoint, and network layers  
+- Supporting troubleshooting and operational response workflows  
+
+---
 
 ## 📂 Repository Structure
-- `/Active-Directory` → User + group automation scripts
-- `/SCCM-MECM` → Deployment & packaging scripts
-- `/Intune` → Device & policy automation
-- `/Endpoint-Security` → Security-related scripts
-- `/Automation` → Cross-system automation
-- `/Utilities` → General-purpose scripts
 
-## ⚙️ Purpose
-These scripts were built to:
-- Reduce manual workload for IT teams
-- Improve consistency and accuracy
-- Strengthen security posture
-- Scale IT operations efficiently
+- `/Active-Directory` → Identity and access automation  
+- `/Endpoint-Management` → Endpoint remediation and maintenance  
+- `/Endpoint-Communication` → User notification and messaging  
+- `/Network-Infrastructure` → DHCP, DNS, and IP analysis  
+
+---
+
+## 🧠 Real-World Impact
+
+These scripts were built and used to:
+
+- Reduce manual administrative workload  
+- Improve consistency across enterprise systems  
+- Accelerate troubleshooting and issue resolution  
+- Support secure and scalable IT operations  
+
+---
 
 ## 🔒 Disclaimer
-All scripts have been sanitized. No sensitive, proprietary, or environment-specific data is included.
+
+All scripts have been sanitized for public sharing.  
+No sensitive, proprietary, or environment-specific information is included.
+
+---
 
 ## 👤 Author
+
 Erik McCauley
